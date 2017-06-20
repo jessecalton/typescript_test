@@ -18,7 +18,7 @@ function greeter(person : Person) {
   return "Hello, " + person.firstName + " " + person.lastName;
 }
 
-var user = new Student("Jane", "M.", "User");
+var user = new Student("Jane", "M.", "User"); // using constructor method
 
 // var user = [0, 1, 2]; *running code this way gives us an error when compiling*
 
